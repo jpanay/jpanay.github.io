@@ -3,7 +3,7 @@ const projects = [
     name: 'Space Viewer',
     desc: 'Travel through and understand our universe as we\'ve come to know it',
     img: 'media/spaceview.png',
-    link: 'https://jpanay.github.io/'
+    link: 'https://jpanay.github.io/spaceView/'
   },
   {
     name: 'Trulia Mockup',
@@ -21,6 +21,6 @@ const projects = [
     name: 'Lateprint *OFFLINE*',
     desc: 'Desktop application attendance tracking system with hardware interfacing for printing late passes',
     img: 'media/lateprint.png',
-    link: 'http://ec2-12-172-119-62.us-east-2.compute.amazonaws.com:3000/'
+    link: '#'
   }
 ]
