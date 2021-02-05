@@ -1,0 +1,51 @@
+body {
+  background-color: rgb(36, 36, 36);
+  font-family: 'Courier New', Courier, monospace;
+  margin: 0px;
+}
+
+a:hover {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+a {
+  text-decoration: none;
+  color: aliceblue;
+}
+
+.nav {
+  transition: 1s;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgb(15, 15, 15);
+  border-bottom: 1px solid black;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.nav:hover {
+  border-bottom: 1px solid rgb(118, 250, 147);
+}
+
+.nav-item {
+  transition: 0.5s;
+  color: rgb(240, 240, 240);
+  padding: 10px 15px 7px 15px;
+  cursor: pointer;
+}
+
+.nav-item:hover {
+  color: rgb(118, 250, 147);
+}
+
+/* NAME */
+.name {
+  padding-top: 8px;
+}
+.green { color: rgb(118, 250, 147); }
+.blue { color: rgb(118, 193, 255); }
+.yellow { color: rgb(255, 253, 126); }
+/* .paren { color: rgb(118, 250, 147); } */
