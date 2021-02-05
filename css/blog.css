@@ -17,6 +17,7 @@
 
 .blog-container:hover {
   border: 1px solid rgb(118, 250, 147);
+  box-shadow: 0px 0px 7px 7px rgba(55, 255, 88, 0.3);
 }
 
 .blog-img {
@@ -25,12 +26,14 @@
   max-width: 121px;
   min-width: 120px;
   background-color: rgb(31, 31, 31);
+
 }
 
 .blog-img:hover {
   border: 1px solid rgb(255, 253, 126);
   cursor: pointer;
   transform: scale(1.3);
+  box-shadow: 0px 0px 50px 20px rgba(255, 253, 126, 0.9);
 }
 
 .img {
@@ -38,7 +41,7 @@
 }
 
 .blog {
-  height: 100%;
+  height: calc(100%-5px);
   transition: 1s;
   color: aliceblue;
   max-width: 700px;
