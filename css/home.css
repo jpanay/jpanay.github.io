@@ -52,18 +52,23 @@
 }
 
 .home-info-link {
+  text-decoration: none;
   transition: 300ms;
   font-size: 32px;
-  border: 1px solid black;
+  border: 1px solid rgb(20, 20, 20);
   border-radius: 10px;
   padding: 5px;
   display: flex;
   align-items: center;
   font-weight: 500;
   margin-top: 10px;
-  width: 100%;
+  width: 80%;
   background-color: rgb(30, 30, 30);
   cursor: pointer;
+}
+
+a {
+  color: rgb(5, 5, 5);
 }
 
 .home-info-link:hover {

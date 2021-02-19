@@ -12,10 +12,16 @@ const projects = [
     link: 'https://chrome.google.com/webstore/detail/jumprope-converter/opledhcnlefammhognofkojollkipgho/'
   },
   {
-    name: 'Trulia Mockup *OFFLINE*',
-    desc: 'Trulia listing page 1:1 front end mockup',
+    name: 'Hyper Translate',
+    desc: 'Multiusage Translation App, Speech to Speech, Text to Speech and Speech to Text in 100+ languages',
+    img: 'media/translate.webp',
+    link: 'https://github.com/jpanay/translator'
+  },
+  {
+    name: 'Real Estate Mockup',
+    desc: 'Trulia listing page style real estate mockup',
     img: 'https://play-lh.googleusercontent.com/8oKuuksma5EmQrsvWRMzzznaVOCIGyBsNaZ53YozK6RXCuLMmbjBQmAyAK2HF-2BxZE',
-    link: 'http://ec2-3-18-215-102.us-east-2.compute.amazonaws.com:3080/'
+    link: 'https://github.com/thanosgauntletfec'
   },
   {
     name: 'Lateprint *OFFLINE*',
@@ -24,3 +30,4 @@ const projects = [
     link: '#'
   }
 ]
+

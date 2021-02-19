@@ -1,4 +1,16 @@
 const blogs = [
+  {
+    name: 'Coming Soon ...',
+    desc: 'Sorry this page is still building, come back soon to see my cool new tech blog',
+    img: 'https://i.pinimg.com/originals/eb/1b/27/eb1b27863813653543914d222ceb9cd0.gif',
+    id: 'libraryComp'
+  },
+  {
+    name: 'Almost There ...',
+    desc: 'Hang on tight just bolting up the last connections',
+    img: 'https://media1.tenor.com/images/7130b6103f382b6c75339e6b44003e89/tenor.gif?itemid=5665218',
+    id: 'libraryComp'
+  }
   // {
   //   name: 'Javascript Library Compilation',
   //   desc: 'A personal directory of favorite / most used libraries',
