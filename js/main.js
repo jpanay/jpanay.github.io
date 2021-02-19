@@ -57,8 +57,8 @@ let generateHome = () => {
   let homeCenter = $(`<div class="home-center"></div>`)
   let homeHeadshot = $(`<img class="home-center-headshot" src="media/headshot.png"></img>`)
   let homeInfo = $(`<div class="home-info"></div>`)
-  let homeInfoTxtName = $(`<div class="home-info-txt"> Jason Panay </div>`)
-  let homeInfoTxtOccupation = $(`<div class="home-info-txt green"> Software Engineer </div>`)
+  let homeInfoTxtName = $(`<div class="home-info-txt green"> Jason Panay </div>`)
+  let homeInfoTxtOccupation = $(`<div class="home-info-txt"> Software Engineer </div>`)
   let homeInfoTxtLocation = $(`<div class="home-info-txt"> New York,New York </div>`)
   let homeLinkGithub = $(`<a href="https://github.com/jpanay" target="blank" class="home-info-link github-link">
     <img class="img-sml github-img" src="media/github.png"> Github
@@ -115,6 +115,21 @@ let generateHome = () => {
     $('.img-sml').css('background-color', '')
     $('.github-img').css('transform', 'scale(1)')
   })
+
+
+  let greenIndex = 0
+  let textPieces = document.querySelectorAll('.home-info-txt')
+  setTimeout(() => {
+    textPieces[0].className = 'home-info-txt'
+    textPieces[1].className = 'home-info-txt green'
+  }, 1000)
+
+  setInterval(() => {
+    greenIndex++
+    if (greenIndex > textPieces.length-1) { greenIndex = 0 }
+    for (let node of textPieces) { node.className = 'home-info-txt' }
+    textPieces[greenIndex].className = 'home-info-txt green'
+  }, 3000)
 
 
   let turn1 = 0

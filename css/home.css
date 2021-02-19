@@ -46,6 +46,7 @@
 }
 
 .home-info-txt {
+  transition: 2000ms;
   text-align: center;
   font-size: 24px;
   cursor: default;
