@@ -6,16 +6,16 @@ const projects = [
     link: 'https://jpanay.github.io/spaceView/'
   },
   {
-    name: 'Trulia Mockup',
-    desc: 'Trulia listing page 1:1 front end mockup',
-    img: 'https://play-lh.googleusercontent.com/8oKuuksma5EmQrsvWRMzzznaVOCIGyBsNaZ53YozK6RXCuLMmbjBQmAyAK2HF-2BxZE',
-    link: 'http://ec2-3-18-215-102.us-east-2.compute.amazonaws.com:3080/'
-  },
-  {
     name: 'Jumprope Converter',
     desc: 'Google Chrome extension that auto-converts grades from IB scale to % on the JumpRope grading site',
     img: 'media/jumprope.png',
     link: 'https://chrome.google.com/webstore/detail/jumprope-converter/opledhcnlefammhognofkojollkipgho/'
+  },
+  {
+    name: 'Trulia Mockup *OFFLINE*',
+    desc: 'Trulia listing page 1:1 front end mockup',
+    img: 'https://play-lh.googleusercontent.com/8oKuuksma5EmQrsvWRMzzznaVOCIGyBsNaZ53YozK6RXCuLMmbjBQmAyAK2HF-2BxZE',
+    link: 'http://ec2-3-18-215-102.us-east-2.compute.amazonaws.com:3080/'
   },
   {
     name: 'Lateprint *OFFLINE*',

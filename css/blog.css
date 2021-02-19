@@ -17,7 +17,7 @@
 
 .blog-container:hover {
   border: 1px solid rgb(118, 250, 147);
-  box-shadow: 0px 0px 7px 7px rgba(55, 255, 88, 0.3);
+  box-shadow: 0px 0px 12px 6px rgba(55, 255, 88, 0.5);
 }
 
 .blog-img {

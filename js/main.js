@@ -42,7 +42,37 @@ $('.name').click(nameAnimation)
 
 let generateHome = () => {
   $('.app').empty()
-  let div = $(`<div class="home"></div>`)
+  let home = $(`<div class="home"></div>`)
+
+  let homeCenter = $(`<div class="home-center"></div>`)
+  let homeHeadshot = $(`<img class="home-center-headshot" src="media/headshot.png"></img>`)
+  let homeInfo = $(`<div class="home-info"></div>`)
+  let homeInfoTxtName = $(`<div class="home-info-txt"> Jason Panay </div>`)
+  let homeInfoTxtLocation = $(`<div class="home-info-txt"> New York,New York </div>`)
+  let homeLinkGithub = $(`<div class="home-info-link">
+    <img class="img-sml" src="media/github.png"> Github
+  </div>`)
+  let homeLinkLinkedin = $(`<div class="home-info-link">
+    <img class="img-sml" src="media/linkedin.png"> Linkedin
+  </div>`)
+
+
+  homeInfo.append(homeInfoTxtName)
+  homeInfo.append(homeInfoTxtLocation)
+  homeInfo.append(homeLinkGithub)
+  homeInfo.append(homeLinkLinkedin)
+
+  homeCenter.append(homeHeadshot)
+  homeCenter.append(homeInfo)
+
+  let homeLeft = $(`<div class="home-center">LEFT</div>`)
+
+  let homeRight = $(`<div class="home-center">RIGHT</div>`)
+
+  home.append(homeLeft);
+  home.append(homeCenter);
+  home.append(homeRight);
+  // center.append(three)
 
   // ASK
   // let askDiv = $(`<div class="ask-div"></div>`)
@@ -55,12 +85,13 @@ let generateHome = () => {
   // div.append(askDiv)
   // THREE
   // let three = $(`<div class="three" id="three"></div>`)
-  // div.append(three)
+  //
 
   // RENDER
-  $('.app').append(div)
+  $('.app').append(home)
 }
 generateHome()
+
 
 let generateProjects = () => {
   $('.app').empty()
